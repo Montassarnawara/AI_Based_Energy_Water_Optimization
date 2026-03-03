@@ -1,0 +1,170 @@
+{
+    "model_name": "XGBoost",
+    "timestamp": "2025-11-16 21:37:45",
+    "dataset": "Advanced IoT Agriculture 2024",
+    "n_samples": 30000,
+    "n_features": 12,
+    "n_classes": 6,
+    "test_accuracy": 1.0,
+    "test_f1_score": 1.0,
+    "cv_mean_f1": 1.0,
+    "cv_std_f1": 0.0,
+    "per_class_metrics": [
+        {
+            "Class": "SA",
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1-Score": 1.0,
+            "Support": 750
+        },
+        {
+            "Class": "SB",
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1-Score": 1.0,
+            "Support": 750
+        },
+        {
+            "Class": "SC",
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1-Score": 1.0,
+            "Support": 750
+        },
+        {
+            "Class": "TA",
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1-Score": 1.0,
+            "Support": 750
+        },
+        {
+            "Class": "TB",
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1-Score": 1.0,
+            "Support": 750
+        },
+        {
+            "Class": "TC",
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1-Score": 1.0,
+            "Support": 750
+        }
+    ],
+    "confusion_matrix": [
+        [
+            750,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            750,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            750,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            750,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            750,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            750
+        ]
+    ],
+    "all_models_comparison": {
+        "XGBoost": {
+            "accuracy": 1.0,
+            "f1_score": 1.0
+        },
+        "Random Forest": {
+            "accuracy": 1.0,
+            "f1_score": 1.0
+        },
+        "Decision Tree": {
+            "accuracy": 1.0,
+            "f1_score": 1.0
+        }
+    },
+    "feature_importance": [
+        {
+            "Feature": " Percentage of dry matter for vegetative growth (PDMVG)",
+            "Importance": 0.20968446135520935
+        },
+        {
+            "Feature": "Average root diameter (ARD)",
+            "Importance": 0.135030597448349
+        },
+        {
+            "Feature": "Average leaf area of the plant (ALAP)",
+            "Importance": 0.10201042145490646
+        },
+        {
+            "Feature": " Plant height rate (PHR)",
+            "Importance": 0.09871236234903336
+        },
+        {
+            "Feature": "Average wet weight of the root (AWWR)",
+            "Importance": 0.09825557470321655
+        },
+        {
+            "Feature": "Average root length (ARL)",
+            "Importance": 0.08188798278570175
+        },
+        {
+            "Feature": " Average dry weight of the root (ADWR)",
+            "Importance": 0.0704699456691742
+        },
+        {
+            "Feature": " Average dry weight of vegetative plants (ADWV)",
+            "Importance": 0.06107405945658684
+        },
+        {
+            "Feature": "Percentage of dry matter for root growth (PDMRG)",
+            "Importance": 0.05093106999993324
+        },
+        {
+            "Feature": " Average  of chlorophyll in the plant (ACHP)",
+            "Importance": 0.050229787826538086
+        },
+        {
+            "Feature": "Average wet weight of the growth vegetative (AWWGV)",
+            "Importance": 0.025179238989949226
+        },
+        {
+            "Feature": "Average number of plant leaves (ANPL)",
+            "Importance": 0.01653457060456276
+        }
+    ]
+}

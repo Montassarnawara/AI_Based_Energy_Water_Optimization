@@ -1,0 +1,42 @@
+{
+    "best_model_name": "Decision Tree",
+    "timestamp": "2025-11-16 22:00:18",
+    "dataset": "IoT Agriculture 2024",
+    "n_samples": 37922,
+    "n_features": 11,
+    "test_accuracy": 1.0,
+    "test_f1_score": 1.0,
+    "cv_mean_f1": 0.9999752933909821,
+    "cv_std_f1": 4.9413218035843086e-05,
+    "roc_auc": 1.0,
+    "confusion_matrix": [
+        [
+            1353,
+            0
+        ],
+        [
+            0,
+            4336
+        ]
+    ],
+    "all_models_comparison": {
+        "Decision Tree": {
+            "accuracy": 1.0,
+            "f1_score": 1.0,
+            "inference_time_ms": 0.00010933979132993084,
+            "model_size_kb": 1.3134765625
+        },
+        "Logistic Regression": {
+            "accuracy": 1.0,
+            "f1_score": 1.0,
+            "inference_time_ms": 8.079996844925514e-05,
+            "model_size_kb": 0.7900390625
+        },
+        "XGBoost": {
+            "accuracy": 1.0,
+            "f1_score": 1.0,
+            "inference_time_ms": 0.00025472106236233027,
+            "model_size_kb": 112.9287109375
+        }
+    }
+}

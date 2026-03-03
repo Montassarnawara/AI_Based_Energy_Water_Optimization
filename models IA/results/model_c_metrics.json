@@ -1,0 +1,56 @@
+{
+    "best_model_name": "LightGBM",
+    "timestamp": "2025-11-16 22:22:44",
+    "dataset": "Smart Farming Sensor Data 2024",
+    "n_samples": 500,
+    "n_features": 21,
+    "feature_names": [
+        "soil_moisture_%",
+        "soil_pH",
+        "temperature_C",
+        "rainfall_mm",
+        "humidity_%",
+        "sunlight_hours",
+        "pesticide_usage_ml",
+        "total_days",
+        "latitude",
+        "longitude",
+        "NDVI_index",
+        "farm_id",
+        "region",
+        "crop_type",
+        "irrigation_type",
+        "fertilizer_type",
+        "sowing_date",
+        "harvest_date",
+        "sensor_id",
+        "timestamp",
+        "crop_disease_status"
+    ],
+    "test_rmse": 1175.764793620305,
+    "test_mae": 1059.0268637567103,
+    "test_r2": 0.0017510748860335434,
+    "test_mape": 29.943601520551017,
+    "cv_mean_r2": -0.18445585204791098,
+    "cv_std_r2": 0.1014208239135411,
+    "all_models_comparison": {
+        "Random Forest": {
+            "rmse": 1212.1556194257603,
+            "mae": 1084.1195804714835,
+            "r2": -0.06099834378507474,
+            "mape": 30.781511469769775
+        },
+        "LightGBM": {
+            "rmse": 1175.764793620305,
+            "mae": 1059.0268637567103,
+            "r2": 0.0017510748860335434,
+            "mape": 29.943601520551017
+        },
+        "CatBoost": {
+            "rmse": 1187.3191092166821,
+            "mae": 1059.4147474180024,
+            "r2": -0.01796503886827261,
+            "mape": 30.068559964785617
+        }
+    }
+}

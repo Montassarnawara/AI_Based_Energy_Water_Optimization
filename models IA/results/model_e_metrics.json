@@ -1,0 +1,81 @@
+{
+    "timestamp": "2025-11-16 22:30:15",
+    "architecture": "MLP Meta-Learner (128-64-32 for regression, 64-32 for classification)",
+    "n_samples": 10000,
+    "n_features": 13,
+    "models_integrated": [
+        "Model A (Plant Health)",
+        "Model B (Crop Rec)",
+        "Model C (Yield)",
+        "Model D (Irrigation)"
+    ],
+    "actuators_regression": {
+        "avg_r2": 0.9869922957683885,
+        "per_actuator": {
+            "Water Pump": {
+                "mse": 0.24667440864585166,
+                "r2": 0.9997709480821461
+            },
+            "Nutrient Pump": {
+                "mse": 0.21532879943270722,
+                "r2": 0.9986169242808188
+            },
+            "LED Lights": {
+                "mse": 19.502715430389184,
+                "r2": 0.9695746397318146
+            },
+            "Fan": {
+                "mse": 26.850423014685745,
+                "r2": 0.9857821913033556
+            },
+            "Heater": {
+                "mse": 5.6347662896397175,
+                "r2": 0.9812167754438069
+            }
+        },
+        "training_time_s": 14.30629277229309
+    },
+    "system_status_classification": {
+        "accuracy": 0.9586666666666667,
+        "training_time_s": 1.6886513233184814,
+        "confusion_matrix": [
+            [
+                482,
+                26,
+                0
+            ],
+            [
+                11,
+                912,
+                15
+            ],
+            [
+                0,
+                10,
+                44
+            ]
+        ]
+    },
+    "optimization_scenarios": {
+        "water_saving": {
+            "water": -35,
+            "energy": -10,
+            "yield": -5
+        },
+        "energy_saving": {
+            "water": -15,
+            "energy": -40,
+            "yield": -3
+        },
+        "yield_maximization": {
+            "water": 10,
+            "energy": 15,
+            "yield": 15
+        },
+        "balanced": {
+            "water": -20,
+            "energy": -25,
+            "yield": 8
+        }
+    }
+}
