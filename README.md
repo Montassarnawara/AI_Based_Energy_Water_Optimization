@@ -1,123 +1,120 @@
-# 🌱 AI-Based Energy & Water Optimization for Smart Agriculture
-
-## 📌 Project Overview
-
+🌱 AI-Based Energy & Water Optimization for Smart Agriculture
+📌 Project Overview
 This project presents a complete Artificial Intelligence system designed to optimize water and energy consumption in smart agriculture environments.
 
 The system integrates multiple machine learning models to:
 
-- Diagnose plant health
-- Recommend optimal crops
-- Predict agricultural yield
-- Control irrigation intelligently
-- Fuse decisions for global optimization
+Diagnose plant health
+
+Recommend optimal crops
+
+Predict agricultural yield
+
+Control irrigation intelligently
+
+Fuse decisions for global optimization
 
 The objective is to improve sustainability, reduce resource waste, and increase productivity using data-driven decision making.
 
----
-
-## 🧠 System Architecture
-
+🧠 System Architecture
 The platform is built around five AI models:
 
-### 🔹 Model A – Plant Health Classification
+🔹 Model A – Plant Health Classification
 Classifies crop health status using environmental and sensor data.
 
-### 🔹 Model B – Crop Recommendation
+🔹 Model B – Crop Recommendation
 Recommends the most suitable crop based on soil and climate conditions.
 
-### 🔹 Model C – Yield Prediction
+🔹 Model C – Yield Prediction
 Predicts expected agricultural yield using historical and real-time data.
 
-### 🔹 Model D – Irrigation Control
+🔹 Model D – Irrigation Control
 Determines optimal irrigation strategy to minimize water waste while maintaining productivity.
 
-### 🔹 Model E – Decision Fusion & Optimization
+🔹 Model E – Decision Fusion & Optimization
 Combines outputs from all previous models to produce optimized agricultural decisions.
 
----
-
-## 📂 Repository Structure
-
+📂 Repository Structure
+text
 AI_Based_Energy_Water_Optimization/
 │
-├── data/ # Datasets used for training and evaluation
+├── data/                          # Datasets used for training and evaluation
 │
-├── models IA/ # Machine learning implementation
-│ ├── models/ # Trained models (.pkl files)
-│ ├── results/ # Evaluation metrics and figures
-│ ├── Model_A_Plant_Health.py
-│ ├── Model_B_Crop_Recommendation.py
-│ ├── Model_C_Yield_Prediction.py
-│ ├── Model_D_Irrigation_Control.py
-│ ├── Model_E_Decision_Fusion.py
+├── models_IA/                      # Machine learning implementation
+│   ├── models/                     # Trained models (.pkl files)
+│   ├── results/                     # Evaluation metrics and figures
+│   ├── Model_A_Plant_Health.py
+│   ├── Model_B_Crop_Recommendation.py
+│   ├── Model_C_Yield_Prediction.py
+│   ├── Model_D_Irrigation_Control.py
+│   └── Model_E_Decision_Fusion.py
 │
-├── papier/ # IEEE conference paper (LaTeX + PDF)
+├── papier/                         # IEEE conference paper (LaTeX + PDF)
 │
-├── work summary/ # Technical documentation
+├── work_summary/                    # Technical documentation
 │
 ├── COMPLETE_TECHNICAL_SUMMARY.md
 └── README.md
+⚙️ Technologies Used
+Python – Core programming language
 
+Scikit-learn – Machine learning library
 
+XGBoost – Gradient boosting framework
 
+LightGBM – Lightweight gradient boosting
 
----
+CatBoost – Categorical boosting algorithm
 
-## ⚙️ Technologies Used
+Multi-Layer Perceptron (MLP) – Neural network architecture
 
-- Python
-- Scikit-learn
-- XGBoost
-- LightGBM
-- CatBoost
-- Multi-Layer Perceptron (MLP)
-- IoT-based agricultural datasets
-- LaTeX (IEEE format paper)
+IoT-based agricultural datasets – Real-world sensor data
 
----
+LaTeX – IEEE format paper writing
 
-## 📊 Evaluation Methodology
-
+📊 Evaluation Methodology
 The models were evaluated using:
 
-- 10-Fold Cross Validation
-- Confusion Matrices
-- ROC Curves
-- Feature Importance Analysis
-- Comparative Performance Benchmarking
+10-Fold Cross Validation – Robust performance assessment
+
+Confusion Matrices – Classification accuracy visualization
+
+ROC Curves – Model discrimination capability
+
+Feature Importance Analysis – Key driver identification
+
+Comparative Performance Benchmarking – Model selection optimization
 
 The decision fusion model improves overall system reliability and optimizes irrigation strategies.
 
----
-
-## 🚀 How to Run the Project
-
-### 1️⃣ Install dependencies
-
-```bash
+🚀 How to Run the Project
+1️⃣ Install dependencies
+bash
 pip install -r requirements.txt
-
-python "models IA/Model_A_Plant_Health.py"
-python "models IA/Model_B_Crop_Recommendation.py"
-python "models IA/Model_C_Yield_Prediction.py"
-python "models IA/Model_D_Irrigation_Control.py"
-python "models IA/Model_E_Decision_Fusion.py"
-
-
-
+2️⃣ Run the models
+bash
+python "models_IA/Model_A_Plant_Health.py"
+python "models_IA/Model_B_Crop_Recommendation.py"
+python "models_IA/Model_C_Yield_Prediction.py"
+python "models_IA/Model_D_Irrigation_Control.py"
+python "models_IA/Model_E_Decision_Fusion.py"
 📄 Research Paper
-
 The complete IEEE-style research paper is available in:
 
+text
 papier/AI_Agriculture_Paper_IBI2026.pdf
-
-
-
-
 👨‍💻 Author
-
 Montassar Nawara
 Engineering Student – ENSI
 Specialization: Artificial Intelligence & Smart Systems
 Focus: AI, IoT, Embedded Systems & High-Performance Backend
+
+📝 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page.
+
+⭐ Show your support
+Give a ⭐ if this project helped you!
