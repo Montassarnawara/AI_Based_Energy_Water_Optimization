@@ -78,7 +78,7 @@ python "models IA/Model_B_Crop_Recommendation.py"
 python "models IA/Model_C_Yield_Prediction.py"
 python "models IA/Model_D_Irrigation_Control.py"
 python "models IA/Model_E_Decision_Fusion.py"
-
+```
 
 📄 Research Paper
 
