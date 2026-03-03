@@ -37,9 +37,6 @@ Combines outputs from all previous models to produce optimized agricultural deci
 
 ---
 
-
----
-
 ## ⚙️ Technologies Used
 
 - Python
