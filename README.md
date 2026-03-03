@@ -80,7 +80,7 @@ python "models IA/Model_D_Irrigation_Control.py"
 python "models IA/Model_E_Decision_Fusion.py"
 ```
 
-📄 Research Paper
+## 📄 Research Paper
 
 The complete IEEE-style research paper is available in:
 
@@ -88,7 +88,7 @@ papier/AI_Agriculture_Paper_IBI2026.pdf
 
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Montassar Nawara
 Engineering Student – ENSI
